@@ -15,6 +15,27 @@ Este projeto faz parte da iniciativa HumanGov e tem como objetivo demonstrar pr�
 - Git
 - GitHub
 
+## Arquitetura
+
+
+┌─────────┐
+│ GitHub  │
+└────┬────┘
+     │
+     ▼
+┌───────────┐
+│ Terraform │
+└─────┬─────┘
+      │
+      ▼
+┌─────────────── AWS ───────────────┐
+│                                   │
+├── S3        → Terraform State     │
+├── DynamoDB  → State Locking       │
+└── EC2       → Compute Resources   │
+│                                   │
+└───────────────────────────────────┘
+
 ## Funcionalidades
 
 - Provisionamento automatizado de infraestrutura
@@ -25,9 +46,8 @@ Este projeto faz parte da iniciativa HumanGov e tem como objetivo demonstrar pr�
 
 ## Estrutura do Projeto
 
-```text
+
 terraform/
-```
 
 ## Status
 
