@@ -1,3 +1,3 @@
 variable "state_name" {
-    description = "The name of the us state"
+  description = "The name of the us state"
 }

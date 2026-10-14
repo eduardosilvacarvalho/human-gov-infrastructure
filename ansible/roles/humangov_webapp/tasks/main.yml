@@ -1,0 +1,21 @@
+---
+- name: Update and upgrade apt packages
+  apt:
+    upgrade: dist
+    update_cache: yes
+  become: yes
+
+- name: Install required packages
+  apt:
+    name:
+      - nginx
+      - python3-pip
+      - python3-dev
+      - build-essential
+      - libssl-dev
+      - libffi-dev
+      - python3-setuptools
+      - python3-venv
+      - unzip
+    state: present
+  become: yes
