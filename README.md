@@ -59,3 +59,26 @@ Eduardo Silva Carvalho
 
 Engenheiro de Produção | Estudante de Tecnologia da Informação | Especialização em MultiCloud | Cloud Computing | DevOps | Infraestrutura como Código
 
+📖 Artigo Técnico
+Durante o DevOps Cloud Bootcamp desenvolvi o projeto HumanGov Cloud Deployment utilizando AWS, Docker, Terraform e ECS Fargate.
+
+Leia o artigo completo:
+
+🔗 https://medium.com/@eduardoscarvalho/construindo-uma-arquitetura-cloud-native-na-aws-com-docker-terraform-ecs-fargate-e-dynamodb-d92c578e2619
+
+🚀 Tecnologias Utilizadas
+Docker
+Amazon ECR
+Terraform
+Amazon ECS
+AWS Fargate
+Amazon S3
+Amazon DynamoDB
+IAM
+Application Load Balancer (ALB)
+🌐 Redes Profissionais
+LinkedIn:
+https://www.linkedin.com/in/eduardocarvalho81/
+
+Medium:
+https://medium.com/@eduardoscarvalho
